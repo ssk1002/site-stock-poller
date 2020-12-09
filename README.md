@@ -11,7 +11,7 @@ poll_time = time to re-poll the site in seconds (decimal number)
 
 keywords = keywords to search on site for
 
-webhook_url = optional flag to alert to webhook otherwise will just print to console
+*OPTIONAL* webhook_url = optional flag to alert to webhook otherwise will just print to console
 
 example:
 ```
