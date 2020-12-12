@@ -31,11 +31,6 @@ sites =
         keywordsToExclude: "sold out"
     },
     {
-        url: "https://www.adorama.com/l/Computers/Gaming/Console-Gaming/PlayStation-5/PlayStation-5-Consoles",
-        keywordsToInclude: " ",
-        keywordsToExclude: "sold out"
-    },
-    {
         url: "https://www.antonline.com/Sony/Electronics/Gaming_Devices/Gaming_Consoles/1413479",
         keywordsToInclude: " ",
         keywordsToExclude: "out of stock"
