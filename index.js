@@ -13,12 +13,14 @@ function initializeSites() {
     });
 }
 
-async function siteFound(site) {
+function siteFound(site) {
     // open the site
+    open("https://www.paypal.com/paypalme/sahirkarani");
     open(site.url);
 
     // alert the user in console
-    const message = `Found the correct keywords to include/exclude on site: ${site.url} :)`
+    const message = `\nFound the correct keywords to include/exclude on site: ${site.url}\n` + 
+    `Consider donating to me! Already opened the paypal link as well :)\n`
     console.log(message);
 
     // play the sound

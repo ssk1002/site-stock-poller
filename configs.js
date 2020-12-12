@@ -10,11 +10,11 @@ sites =
         keywordsToInclude: "queue-it_log",
         keywordsToExclude: "softblock"
     },
-    {
-        url: "https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149",
-        keywordsToInclude: "add to card",
-        keywordsToExclude: "sold out"
-    },
+    // {
+    //     url: "https://www.bestbuy.com/site/sony-playstation-5-console/6426149.p?skuId=6426149",
+    //     keywordsToInclude: "add to card",
+    //     keywordsToExclude: "sold out"
+    // },
     {
         url: "https://www.gamestop.com/video-games/playstation-5/consoles/products/playstation-5/11108140.html",
         keywordsToInclude: "add to card",
@@ -40,11 +40,6 @@ sites =
         keywordsToInclude: " ",
         keywordsToExclude: "out of stock"
     },
-    {
-        url: "https://www.paypal.com/paypalme/sahirkarani",
-        keywordsToInclude: "Sahir Karani",
-        keywordsToExclude: ""
-    }
 ];
 
 // 1000 = 1 second, 5000 = 5 seconds
