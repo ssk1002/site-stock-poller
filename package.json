@@ -1,0 +1,25 @@
+{
+  "name": "site-stock-poller",
+  "version": "1.0.0",
+  "description": "Polls sites at given interval and can ring alarm or send message to webhook",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssk1002/site-stock-poller.git"
+  },
+  "author": "Sahir Karani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssk1002/site-stock-poller/issues"
+  },
+  "homepage": "https://github.com/ssk1002/site-stock-poller#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "open": "^7.3.0",
+    "play-sound": "^1.1.3",
+    "puppeteer": "^5.5.0"
+  }
+}
