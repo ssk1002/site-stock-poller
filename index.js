@@ -52,17 +52,19 @@ async function pollSiteAndCheckForKeywords(browser, site) {
             if ( !site.keywordsToExclude || (site.keywordsToExclude && responseBody.toLowerCase().indexOf(site.keywordsToExclude.toLowerCase()) === -1) ) {
                 // mark site as found - play sound, hit webhook, mark site as found
                 site.run = false;
+                context.close();
                 await siteFound(site);
                 return 1;
             }
         }
     }
+    context.close();
     return 0;
 }
 
 
 async function runSitePolling(browser) {
-    console.log('\n\n*******Running next set of polling*******n\n')
+    console.log('\n\n*******Running next set of polling*******\n')
     await Promise.all(sites.map(async (site) => {
         if (site.run) {
             sitesFound += await pollSiteAndCheckForKeywords(browser, site);
